@@ -1,0 +1,8 @@
+.case-receipt { margin-top: 20px; padding-top: 20px; border-top: 1px dashed #b8bba9; width: 100%; }
+.case-receipt .eyebrow { font-size: 10px; }
+.receipt-save-button { display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%; margin-top: 12px; padding: 12px; background: #f7f3e9; border: 1px solid #9d9e8c; color: #343a2d; font-size: 12px; }
+.receipt-save-button > span:last-child { font-size: 20px; line-height: 1; }
+.receipt-save-button:hover:not(:disabled) { background: #e7ddc9; border-color: #9a633f; }
+.case-receipt > p { margin-top: 10px; font-size: 11px; line-height: 1.6; color: #626b56; }
+.case-receipt > .receipt-status:empty { display: none; }
+.case-receipt > .receipt-error { color: #98422d; }

@@ -1,0 +1,45 @@
+{
+  "name": "cashu-unlinked",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A playable investigation of Cashu privacy and observable evidence",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainx/cashu-unlinked.git"
+  },
+  "homepage": "https://github.com/brainx/cashu-unlinked#readme",
+  "bugs": {
+    "url": "https://github.com/brainx/cashu-unlinked/issues"
+  },
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "build:core": "tsc -p tsconfig.json",
+    "build:server": "tsc -p tsconfig.server.json",
+    "build:web": "tsc -p web/tsconfig.json && vite build --config web/vite.config.ts",
+    "build": "npm run build:core && npm run build:server && npm run build:web",
+    "start": "node build/server/main.js",
+    "dev": "npm run build && npm start",
+    "test": "npm run build && node --test tests/*.test.mjs tests/lab/mint-environment.test.mjs",
+    "test:browser": "playwright test",
+    "test:lab": "node lab/run-integration.mjs",
+    "verify": "node scripts/verify.mjs",
+    "demo": "npm run build:core && node scripts/demo.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.server.json --noEmit && tsc -p web/tsconfig.json && tsc -p tsconfig.lab.json --noEmit"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@cashu/cashu-ts": "4.10.1",
+    "@playwright/test": "1.63.0",
+    "@types/node": "22.18.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.8.3",
+    "vite": "8.3.0"
+  }
+}

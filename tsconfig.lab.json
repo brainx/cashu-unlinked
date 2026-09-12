@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build/lab-project",
+    "declaration": true
+  },
+  "include": ["lab/src/**/*.ts", "src/recorded.ts", "src/recorded-contracts.ts", "src/contracts.ts"]
+}

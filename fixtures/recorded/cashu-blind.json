@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 2,
+  "mode": "recorded-cashu",
+  "observer": "isolated-mint",
+  "runId": "ee674ad7-fa5e-4811-8079-e2db8c23cdc9",
+  "kind": "cashu-blind",
+  "assumptions": [
+    "closed-cohort",
+    "no-split-or-reissue"
+  ],
+  "observationScope": "Mint HTTP operations: issuance and recipient-swap timing, integer sat amounts, keysets, input fees, request grouping, and blinded output requests. Spendable bearer material and wallet state are excluded.",
+  "issuances": [
+    {
+      "eventId": "issuance-01",
+      "observedAtMs": 1789240160701,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-01",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "0267453d68cc6217116679d4a0509f8f948334f9971b51bcd775e68317692412f5"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-02",
+      "observedAtMs": 1789240160732,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-02",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "03ca0b10619a6ade41cc424b3150b6999a9ce9bb7c614da6e23a9cff9fc4a0fe3e"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-03",
+      "observedAtMs": 1789240160759,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-03",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "02a25584241e8095267a88bd8dd0b9ee9707118fe1c4b03cc55560815863c86427"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-04",
+      "observedAtMs": 1789240160785,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-04",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "036cd65703c4b927bc8472f48785a4982deae1e8b94c95fd2068c4d51dca031c95"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-05",
+      "observedAtMs": 1789240160811,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-05",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "038e17b88837b9fa0e1f17718db9f61654ddf06db1bc0bd2660176168e8805ccbe"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-06",
+      "observedAtMs": 1789240160836,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-06",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "03cc7c81688c6144171005d61a999ab9a30afd941078f88448f68f0f7d061a4a89"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-07",
+      "observedAtMs": 1789240160859,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-07",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "033ea33882ddc3ac068ac97485552ddac68dfdaff742bf4fb0a5b1d4aa2af69d74"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-08",
+      "observedAtMs": 1789240160883,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-08",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "0342714e6d2e40c8145596364456ef15fefc7836d7f491524690f4e615712ef34d"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-09",
+      "observedAtMs": 1789240160907,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-09",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "02e605804edbb69b5ed8390bfc7e7759c0a4b29328bd0201ef41bc741631182dcc"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-10",
+      "observedAtMs": 1789240160932,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-10",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "028194b2f0c28ca4a9835559510291467f0c7d2c43a22285bf5ae2b87f3e34bfb1"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-11",
+      "observedAtMs": 1789240160958,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-11",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "02e8ad0f8751b77296a279c93026f4910d3095bd5d6ac784ae93308bc68533e051"
+        }
+      ]
+    },
+    {
+      "eventId": "issuance-12",
+      "observedAtMs": 1789240160981,
+      "amountSat": 8,
+      "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+      "groupId": "mint-issuance-12",
+      "requestedOutputs": [
+        {
+          "amountSat": 8,
+          "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+          "blindedMessage": "02821277f48428a112207c89deed7316a3e7a5d8bf06cbc736b156ba10b63754ee"
+        }
+      ]
+    }
+  ],
+  "redemption": {
+    "eventId": "redemption-01",
+    "observedAtMs": 1789240161005,
+    "inputAmountSat": 8,
+    "inputFeeSat": 1,
+    "inputs": [
+      {
+        "amountSat": 8,
+        "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de"
+      }
+    ],
+    "groupId": "swap-redemption-01",
+    "requestedOutputs": [
+      {
+        "amountSat": 4,
+        "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+        "blindedMessage": "036cc6219e7dfa92b4ec4a4adaf0786b2a183ff0b6a7a13e779f2db63376c4138e"
+      },
+      {
+        "amountSat": 2,
+        "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+        "blindedMessage": "03bebd4d75ddaa66cec621c15ac49f2938b7d43f951d0cd2603ddbff25470c6c01"
+      },
+      {
+        "amountSat": 1,
+        "keysetId": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+        "blindedMessage": "0253e2deda5965abe7832872b373e52ccbf9c31545ad4d2b713529b75f97b0d531"
+      }
+    ]
+  },
+  "provenance": {
+    "captureVersion": "unlinked-cashu-capture-v1",
+    "sdk": {
+      "name": "@cashu/cashu-ts",
+      "version": "4.10.1"
+    },
+    "mint": {
+      "name": "Nutshell",
+      "version": "0.20.2",
+      "backend": "FakeWallet",
+      "unit": "sat"
+    },
+    "nuts": [
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      20
+    ],
+    "keysets": [
+      {
+        "id": "019da08298e3cb24879ed33a7a8d82cb05d02ca27412baf5e6281ec1325b0960de",
+        "unit": "sat",
+        "inputFeePpk": 100
+      }
+    ],
+    "feeScope": "NUT-02 input_fee_ppk retained; redemption input fee is observed in sat.",
+    "source": "native-loopback-capture",
+    "recordedAtMs": 1789240161036
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "scope": "canonical-evidence-without-integrity",
+    "digest": "4a319c8766e9dc17d9a9b52c69b4f0193d37b3e276a5b5f0dcbcfd283788e8c3"
+  }
+}

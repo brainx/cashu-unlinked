@@ -1,0 +1,23 @@
+node_modules/
+dist/
+build/
+web/dist/
+.cache/
+test-results/
+playwright-report/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+lab/.venv/
+lab/.data/
+
+# Local development helpers and working notes
+/AGENTS.md
+/CODEX_START.md
+/start-codex.command
+/.unlinked-project
+/tests/launcher.test.mjs
+/docs/superpowers/
+/docs/verification/
